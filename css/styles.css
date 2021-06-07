@@ -1,8 +1,8 @@
 body {
-background-color: hsl(257, 40%, 49%);
-background-image: url(/images/bg-desktop.svg);
-color: white;
-font-family: open sans;
+   background-color: hsl(257, 40%, 49%);
+   background-image: url(/images/bg-desktop.svg);
+   color: white;
+   font-family: open sans;
 
 }
 
@@ -45,3 +45,20 @@ button {
    height: 50px;
    width: 200px;
 }
+footer {
+   display: flex;
+   justify-content: flex-end;
+   padding-right: 150px;
+}
+
+.footer {
+   display: flex;
+   justify-content: space-between;
+   width: 120px;
+   
+
+}
+ .icons {
+    width: 30px;
+   filter: invert(100%) sepia(13%) saturate(7471%) hue-rotate(189deg) brightness(111%) contrast(104%);
+ }
