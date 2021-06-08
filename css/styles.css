@@ -3,13 +3,11 @@ body {
    background-image: url(/images/bg-desktop.svg);
    color: white;
    font-family: open sans;
-
 }
 
 .big-content {
    display: flex;
    padding: 40px 60px;
-   
 }
 
 .heading {
@@ -27,17 +25,14 @@ body {
 
 .main-text {
    padding: 30px 100px;
-   
 }
 
 .logo {
-  margin: 40px 60px;
+   margin: 40px 60px;
 }
-  
-.btn-register {
-  
 
-}
+.btn-register {}
+
 button {
    font-size: 20px;
    color: hsl(257, 40%, 49%);
@@ -45,6 +40,7 @@ button {
    height: 50px;
    width: 200px;
 }
+
 footer {
    display: flex;
    justify-content: flex-end;
@@ -55,10 +51,63 @@ footer {
    display: flex;
    justify-content: space-between;
    width: 120px;
-   
-
 }
- .icons {
-    width: 30px;
+
+.icons {
+   width: 30px;
    filter: invert(100%) sepia(13%) saturate(7471%) hue-rotate(189deg) brightness(111%) contrast(104%);
- }
+}
+
+.big-picture {
+   width: 709px;
+}
+
+@media (max-width: 375px) {
+   body {
+      background-image: url(/images/bg-mobile.svg);
+   }
+   .big-content {
+      flex-direction: column;
+      width: 375px;
+      padding-top: 10px;
+      padding-left: 40px;
+   }
+   footer {
+      justify-content: center;
+      padding-right: 0;
+      margin-top: 15px;
+   }
+   .big-picture {
+      width: 260px;
+   }
+   .logo-img {
+      width: 100px;
+      margin-left: -10px;
+      
+   }
+   .text-body {
+      font-size: 15px;
+   }
+   .heading {
+      font-size: 20px;
+   }
+   .main-text {
+      width: 260px;
+      text-align: center;
+      padding: 0;
+      margin-top: 20px;
+   }
+   button {
+      font-size: 10px;
+      height: 40px;
+      width: 140px;
+   }
+   .icons {
+      width: 20px;
+   }
+   .footer {
+      width: 80px;
+      
+     
+   }
+   }
